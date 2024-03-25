@@ -59,3 +59,5 @@ def generate_invoice():
         doc.render(context)
         output_path = str(os.path.join(download_path, f"Tax-Invoice-{client[1]}-{invoice[0]}.docx"))
         doc.save(output_path)
+    
+    print(f"Invoices generated at {download_path}")
