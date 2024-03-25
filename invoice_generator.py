@@ -50,7 +50,7 @@ def generate_invoice():
             "PARTICIPANT_NUMBER": client[7],
             "PLAN_MANAGER": client[8],
             "PLAN_MANAGER_EMAIL": client[9],
-            "INVOICE": invoice,
+            "INVOICE": invoice[0],
             "TODAY": current_date,
             "TOTAL": round(session_sum, 2),
             "sessions": sessions,
