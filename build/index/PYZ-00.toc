@@ -1,4 +1,5 @@
-('C:\\Users\\Tom\\Desktop\\client-manager\\build\\index\\PYZ-00.pyz',
+('C:\\Users\\Tom\\Documents\\Coding\\Finished '
+ 'projects\\client-manager-next-steps\\client-manager-github\\build\\index\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
    'PYMODULE'),
@@ -234,7 +235,8 @@
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\version.py',
    'PYMODULE'),
   ('client_form',
-   'C:\\Users\\Tom\\Desktop\\client-manager\\client_form.py',
+   'C:\\Users\\Tom\\Documents\\Coding\\Finished '
+   'projects\\client-manager-next-steps\\client-manager-github\\client_form.py',
    'PYMODULE'),
   ('cmd',
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\cmd.py',
@@ -447,7 +449,8 @@
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\darkdetect\\_windows_detect.py',
    'PYMODULE'),
   ('database',
-   'C:\\Users\\Tom\\Desktop\\client-manager\\database.py',
+   'C:\\Users\\Tom\\Documents\\Coding\\Finished '
+   'projects\\client-manager-next-steps\\client-manager-github\\database.py',
    'PYMODULE'),
   ('dataclasses',
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py',
@@ -957,7 +960,8 @@
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
    'PYMODULE'),
   ('invoice_generator',
-   'C:\\Users\\Tom\\Desktop\\client-manager\\invoice_generator.py',
+   'C:\\Users\\Tom\\Documents\\Coding\\Finished '
+   'projects\\client-manager-next-steps\\client-manager-github\\invoice_generator.py',
    'PYMODULE'),
   ('ipaddress',
    'C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
