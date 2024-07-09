@@ -155,7 +155,8 @@ def retreive_sessions(client_id):
     # filter for only the sessions in the current year and month
     filtered_sessions = []
     for sessions in data:
-        session_date = datetime.strptime(sessions[0], "%Y-%m-%d")
+        # 
+        session_date = datetime.strptime(sessions[0], "%d/%m/%Y")
         if (session_date.year == current_year and session_date.month == current_month):
             filtered_sessions.append(sessions)
     

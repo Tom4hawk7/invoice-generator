@@ -81,17 +81,15 @@ class ClientForm(CTkToplevel):
         self.plan_manager_email.delete(0, END)
 
         # calculate the defined attributes
-        date_of_birth = datetime.strptime(dob, "%d/%m/%Y").date()
+        date_dob = datetime.strptime(dob, "%d/%m/%Y").date()
 
-        if (today.year - date_of_birth.year) > 7:
+        if (today.year - date_dob.year) > 7:
             item_number = ABOVE_SEVEN_CODE
         else:
             item_number = BELOW_SEVEN_CODE
 
         # hand off the information to the database
-        client = [(name, date_of_birth, parent, email, address1, address2,
+        client = [(name, dob, parent, email, address1, address2,
                    participant_number, plan_manager, plan_manager_email, item_number)]
-        
-        # TODO repopulate the selector with the 
         
         add_client(client)

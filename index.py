@@ -100,7 +100,8 @@ class InvoiceForm(CTkFrame):
         # obtain values from the input fields
         option = self.client_menu.get()
 
-        date = datetime.strptime(self.date.get(), "%d/%m/%Y").date()
+        # date = datetime.strptime(self.date.get(), "%d/%m/%Y").date()
+        date = self.date.get()
         minutes = int(self.minutes.get())
         description = self.description.get()
         
