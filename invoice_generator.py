@@ -5,7 +5,7 @@ import database
 import os
 
 def generate_invoice():
-    current_date = datetime.now().date()
+    current_date = datetime.strftime(datetime.now().date(), '%d/%m/%Y')
 
     # creating the folder
     download_folder = str(os.path.join(Path.home(), "Downloads"))
