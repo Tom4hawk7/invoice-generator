@@ -6,10 +6,11 @@ import os
 
 def generate_invoice():
     current_date = datetime.strftime(datetime.now().date(), '%d/%m/%Y')
+    title_date = datetime.now().date()
 
     # creating the folder
     download_folder = str(os.path.join(Path.home(), "Downloads"))
-    download_path = str(os.path.join(download_folder, f"Tax Invoices {current_date}"))
+    download_path = str(os.path.join(download_folder, f"Tax Invoices {title_date}"))
     print(download_path)
 
     try:
